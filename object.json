@@ -4,7 +4,7 @@
     "userPhone": "010-0000-0000",
     "status": "R",
     "dispatchedAt": "2023-01-01",
-    "dispatchCustomerCode": "0001",
+    "dispatchCasdustomerCode": "0001",
     "dispatchId": "0001",
     "dispatchCount": 0,
     "state": "0001",
