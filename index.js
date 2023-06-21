@@ -49,5 +49,5 @@ rl.question('Please enter entity name: ', (name) => {
 });
 
 function isDate(date) {
-    return moment(date, true).isValid() && new Date(date).getTime() > 0
+    return moment(date, true).isValid() && new Date(date).getTime() > 0 && date.length >= 10 && (date.includes('-') || date.includes('/') || date.includes('.'))
 }
